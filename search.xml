@@ -14,11 +14,11 @@
 <p>好，话不多说，直入主题！</p>
 <p>本次采用的是Hexo+GitHub组合来搭建私人博客。Hexo是一个轻量、简易、高逼格的博客框架，主页在此：<a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">Hexo</a>，Hexo是一个基于node.js制作的博客工具，不是一个开源的博客系统。而我们也不需要部署Hexo到我们的服务器上，Hexo用Markdown来解析文章，帮我们生成静态网页，然后将生成的html上传到我们的服务器。简言之：Hexo是一个静态页面生成、上传的工具。GitHub是一个面向开源及私有软件项目的代码托管平台，只支持 Git 作为唯一的版本库格式进行托管，同时也是全球最大的男性交友平台。</p>
 <h3 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h3><p>Hexo是基于Node.js环境的静态博客，所以先安装Node.js。首先在<a href="https://nodejs.org/zh-cn/download/" target="_blank" rel="noopener">官网</a>根据自己的系统下载对应版本的安装包，由于本人是Mac系统，可以直接用brew命令：    </p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">brew install node</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">brew install node</span><br></pre></td></tr></table></figure>
 
 <p>安装成功后，可以通过<strong>node -v</strong>查看版本信息，如果出现版本信息则证明安装成功，否则需要配置node相关的环境变量。    </p>
 <p><img src="https://pic.downk.cc/item/5ee73f3fc2a9a83be528edad.png" alt=""></p>
-<p>安装Node.js的同时会安装npm，npm是是Node.js的包管理器，用于节点插件的管理（包括安装，卸载和管理依赖等）。通过<strong>npm -v</strong>来检查npm是否安装成功。</p>
+<p>安装Node.js的同时会安装npm，npm是Node.js的包管理器，用于节点插件的管理（包括安装，卸载和管理依赖等）。通过<strong>npm -v</strong>来检查npm是否安装成功。</p>
 <p><img src="https://pic.downk.cc/item/5ee73f3fc2a9a83be528edb1.png" alt=""></p>
 <p>由于npm服务器在国外，经常会下载缓慢或出现异常，所以我们实际上用到更多的是cnpm，我们可以从这个服务器上稳定下载资源。通过以下命令来下载cnpm：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry&#x3D;http:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
@@ -69,8 +69,9 @@
 
 <p>接着我们需要对Hexo配置，使其对应到我们刚刚建立的git仓库，首先获取git仓库的地址</p>
 <p><img src="https://pic.downk.cc/item/5ee74484c2a9a83be531d509.png" alt=""></p>
-<p>接着打开blog/_config.yml文件，对Deployment进行配置，配置内容如下图</p>
-<p><img src="https://pic.downk.cc/item/5ee744ecc2a9a83be53265d7.jpg" alt=""></p>
+<p>接着打开blog/_config.yml文件，对Deployment进行配置，配置内容如下</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## Docs: https:&#x2F;&#x2F;hexo.io&#x2F;docs&#x2F;deployment.html</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:RabbitGY&#x2F;RabbitGY.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+
 <p>至此，我们就将本地的Hexo与远程的GitHub联系起来，通过访问 <a href="https://YourGithubName.github.io" target="_blank" rel="noopener">https://YourGithubName.github.io</a>  就可以访问到你的私人博客啦，是不是很棒！以后每次发布文章，都可以通过hexo clean + hexo g + hexo d 来进行远程部署了，实在是方便易懂。在此，再介绍一些Hexo常用的命令。</p>
 <blockquote>
 <p>hexo init：用于初始化本地文件夹为网站的根目录</p>
