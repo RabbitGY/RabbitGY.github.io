@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-06-16T13:54:31.247Z</updated>
+  <updated>2020-06-16T14:00:48.186Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,17 +21,15 @@
     <link href="http://yoursite.com/2020/06/16/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95-%E4%B8%80/"/>
     <id>http://yoursite.com/2020/06/16/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95-%E4%B8%80/</id>
     <published>2020-06-16T13:21:57.000Z</published>
-    <updated>2020-06-16T13:54:31.247Z</updated>
+    <updated>2020-06-16T14:00:48.186Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h3 id=&quot;为什么要学数据结构与算法？&quot;&gt;&lt;a href=&quot;#为什么要学数据结构与算法？&quot; class=&quot;headerlink&quot;
-        
-      
+      &lt;h3 id=&quot;为什么要学数据结构与算法？&quot;&gt;&lt;a href=&quot;#为什么要学数据结构与算法？&quot; class=&quot;headerlink&quot; title=&quot;为什么要学数据结构与算法？&quot;&gt;&lt;/a&gt;为什么要学数据结构与算法？&lt;/h3&gt;&lt;p&gt;在工作中，我们总是喜欢高谈阔论，谈论高性能、高可用、微服务等，很少有人能潜心钻研基础知识，提升自己代码层面的编程能力。数据结构是一组数据的存储结构，算法是操作数据的方法，简单的说，数据结构是为算法服务的，算法是要作用在特定的数据结构上的。数据结构与算法就像是一座大厦的地基，地基够“坚实”，我们的技术高度才能达到更高。无论你是想在工作中更进一步，还是想寻一份更好的工作，数据结构和算法都是你必修的“内功”。接下来我会根据自己所学加以自己的理解，挑选以下的内容由浅入深地带你进入数据结构与算法的世界。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;8 个数据结构&lt;/strong&gt;：数组、链表、栈、队列、散列表、树(二叉树、堆、多路查找树、Trie树)、跳表、图&lt;br&gt;&lt;strong&gt;10 个算法&lt;/strong&gt;：递归、排序、二分查找、搜索、哈希算法、贪心算法、分治算法、回溯算法、动态规划、字符串匹配算法&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;那有人说了，这些内容在书上都可以学习到啊，你这个有什么优势呢？&lt;/p&gt;
     
     </summary>
     
