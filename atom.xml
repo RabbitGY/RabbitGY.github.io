@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-06-16T14:00:48.186Z</updated>
+  <updated>2020-06-18T02:36:32.335Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>数据结构与算法(二)</title>
+    <link href="http://yoursite.com/2020/06/16/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95-%E4%BA%8C/"/>
+    <id>http://yoursite.com/2020/06/16/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95-%E4%BA%8C/</id>
+    <published>2020-06-16T14:08:38.000Z</published>
+    <updated>2020-06-18T02:36:32.335Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;上一节讲了数组、链表、栈、队列的数据结构，详情请见&lt;a href=&quot;/2020/06/16/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95-%E4%B8%80/&quot; title=&quot;数据结构与算法(一)&quot;&gt;数据结构与算法(一)&lt;/a&gt;。这一节要讲的是散列表。我举个例子，假设我们班有54个学生，现在要对这些学生进行编号，编号规则为4位数组，比如0236，其中02为班级号，36为学生编号。那我们怎么做呢？&lt;/p&gt;
+&lt;p&gt;我们可以截取编号的后两位，即1-54。把编号为 1 的学生放到数组中下标为 1 的位置；编号为 2 的学生放到数组中下标为 2 的位置。以此类推，编号为 k 的学生放到数组中下标为 k 的位置。这样编号与下标一一对应，当我们要获取编号为x的学生，只需要将数组下标为x的数据取出来就好啦，根据之前学习的知识，可知时间复杂度为O(1)。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="数据结构与算法" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="散列表" scheme="http://yoursite.com/tags/%E6%95%A3%E5%88%97%E8%A1%A8/"/>
+    
+      <category term="哈希算法" scheme="http://yoursite.com/tags/%E5%93%88%E5%B8%8C%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>数据结构与算法(一)</title>
     <link href="http://yoursite.com/2020/06/16/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95-%E4%B8%80/"/>
     <id>http://yoursite.com/2020/06/16/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95-%E4%B8%80/</id>
     <published>2020-06-16T13:21:57.000Z</published>
-    <updated>2020-06-16T14:00:48.186Z</updated>
+    <updated>2020-06-16T14:13:37.973Z</updated>
     
     <summary type="html">
     
